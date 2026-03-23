@@ -1,0 +1,41 @@
+/* a, button{
+    color: black;
+} */
+.navbar__mobile-options .btn--secondary{
+    color: black;
+}
+.primary-navbar .open-mobile-menu{
+    color: black;
+}
+.fa-xmark-large{
+    color: white;
+}
+.navbar__dropdown-label{
+    color: black;
+}
+
+/* Enhancing Professional Look: Disable custom cursor and reset animations */
+.mouseCursor {
+    display: none !important;
+}
+body * {
+    cursor: auto !important;
+}
+a, button, .btn, .cursor-pointer {
+    cursor: pointer !important;
+}
+input, textarea, select {
+    cursor: text !important;
+}
+
+/* Ensure fade elements are visible since their JS animations were disabled */
+.title-anim, 
+.fade-left, 
+.fade-right, 
+.fade-top, 
+.fade-down, 
+.fade-wrapper {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+}
