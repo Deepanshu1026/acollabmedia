@@ -11,6 +11,8 @@ import Testimonials from './components/Testimonials.jsx';
 import CTA from './components/CTA.jsx';
 import FAQ from './components/FAQ.jsx';
 import Footer from './components/Footer.jsx';
+// import LiveCampaigns from './components/LiveCampaigns.jsx';
+import PremiumCampaigns from './components/PremiumCampaigns.jsx';
 import { useReveal } from './hooks/useReveal.js';
 
 export default function App() {
@@ -44,6 +46,8 @@ export default function App() {
         <Earnings />
         <USP />
         <ForBrands />
+        {/* <LiveCampaigns /> */}
+        <PremiumCampaigns />
         <Testimonials />
         <CTA />
         <FAQ />
