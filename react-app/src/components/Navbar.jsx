@@ -13,7 +13,7 @@ export default function Navbar() {
     <header className={`site-header${scrolled ? ' is-scrolled' : ''}`}>
       <div className="container nav">
         <a href="#top" className="brand">
-          <img src="assets/images/logo-light.png" alt="A Collab Media logo" />
+          <img src="/src/assets/images/logo-light.png" alt="A Collab Media logo" />
           <div className="brand-copy">
             <strong>A Collab Media</strong>
             <span>Creators × Brands</span>

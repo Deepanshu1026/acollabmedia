@@ -37,7 +37,7 @@ export default function FAQ() {
             <h2>Common questions, <em>clear answers.</em></h2>
             <p>Quick answers to remove hesitation and help you start without any confusion.</p>
           </div>
-          <img src="assets/images/faq-thumb.png" alt="FAQ illustration" />
+          <img src="/src/assets/images/faq-thumb.png" alt="FAQ illustration" />
         </div>
         <div className="faq-grid" data-reveal>
           {faqs.map((f, i) => (

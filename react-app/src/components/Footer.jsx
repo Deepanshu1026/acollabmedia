@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-copy">
             <a href="#top" className="brand">
-              <img src="assets/images/logo-light.png" alt="A Collab Media logo" />
+              <img src="/src/assets/images/logo-light.png" alt="A Collab Media logo" />
               <div className="brand-copy">
                 <strong>A Collab Media</strong>
                 <span>Creator monetization platform</span>

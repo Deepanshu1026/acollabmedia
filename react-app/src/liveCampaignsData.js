@@ -1,4 +1,4 @@
-const p = '/assets/images/naman_brands';
+const p = '/src/assets/images/naman_brands';
 
 export const liveCampaigns = [
   {

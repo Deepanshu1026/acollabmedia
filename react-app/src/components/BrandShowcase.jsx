@@ -94,7 +94,7 @@ function CreatorCard({ creator, creatorIndex, onOpen, delay }) {
     <div className="gr-card anim-reveal" ref={ref} onClick={() => onOpen(creatorIndex, 0)}>
       <img className="gr-img" src={creator.image} alt={creator.name} />
       <div className="gr-badge">
-        <div className="gr-logo"><img src="assets/images/logo-light.png" alt="logo" /></div>
+        <div className="gr-logo"><img src="/src/assets/images/logo-light.png" alt="logo" /></div>
         <div className="gr-text">A Collab Media</div>
       </div>
       <div className="gr-overlay">
